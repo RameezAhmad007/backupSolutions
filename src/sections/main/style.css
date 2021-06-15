@@ -1,0 +1,41 @@
+.main {
+  height: 650px;
+}
+.main__content {
+  /* background-color: pink; */
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-image: url(../../img/hero-bg.jpg);
+  background-position: top center;
+  background-size: cover;
+}
+.main__content::before {
+  content: "";
+  background: rgba(6, 101, 183, 0.9);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.main__text {
+  z-index: 1;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 1104px;
+  width: 100%;
+  text-align: center;
+}
+.mian__heading {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.main__p {
+  margin-top: 30px;
+}

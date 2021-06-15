@@ -1,0 +1,32 @@
+.more {
+  background-color: #065fad;
+  padding: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.more__content {
+  max-width: 1140px;
+  width: 100%;
+  display: flex;
+}
+
+.more__contact {
+  width: 25%;
+  padding: 20px 20px 20px 0;
+}
+
+.more__heading {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  padding-bottom: 12px;
+}
+
+.more__detail {
+  line-height: 26px;
+  color: #fff;
+  font-size: 0.85rem;
+}
