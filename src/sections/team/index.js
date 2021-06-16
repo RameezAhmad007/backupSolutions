@@ -1,7 +1,7 @@
 import React from "react";
 import team1 from "../../img/team/client.jpeg";
 import team2 from "../../img/team/client2.jpeg";
-import "./style.css";
+import "./styles.scss";
 
 const teamData = [
   {

@@ -1,6 +1,6 @@
 import React from "react";
 import { BsEnvelope, BsPhone } from "react-icons/bs";
-import "./style.css";
+import "./styles.scss";
 
 const ContactSection = () => {
   return (

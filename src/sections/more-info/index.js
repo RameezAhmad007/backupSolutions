@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.css";
+import "./styles.scss";
 const MoreInfo = () => {
   return (
     <section className="more">

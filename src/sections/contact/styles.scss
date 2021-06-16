@@ -1,0 +1,135 @@
+.contact {
+  position: relative;
+  background-image: url("../../img/contact-bg.png");
+  background-position: left center;
+  background-repeat: no-repeat;
+  padding: 60px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:before {
+    content: "";
+    background: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .contact__content {
+    max-width: 1140px;
+    width: 100%;
+    z-index: 1;
+
+    .contact__heading {
+      color: #054a85;
+      margin-bottom: 20px;
+      font-size: 2.6rem;
+      font-weight: bold;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    .contact__info {
+      margin-top: 60px;
+
+      .info__card {
+        display: flex;
+        align-items: center;
+
+        &:last-child {
+          margin-top: 40px;
+        }
+
+        .info__icon {
+          font-size: 1.8rem;
+          background: #0880e8;
+          color: #fff;
+          width: 44px;
+          height: 44px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 50px;
+        }
+
+        .info__content {
+          margin-left: 16px;
+
+          .info__heading {
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 5px;
+            color: #043c6d;
+          }
+
+          .info__desc {
+            font-size: 1.6rem;
+            color: #444444;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1201px) {
+  .contact {
+    .contact__content {
+      max-width: 86%;
+    }
+  }
+}
+
+@media (max-width: 641px) {
+  .contact {
+    .contact__content {
+      .contact__heading {
+        font-size: 2rem;
+      }
+
+      .contact__info {
+        margin-top: 40px;
+
+        .info__card {
+          &:last-child {
+            margin-top: 30px;
+          }
+
+          .info__icon {
+            font-size: 1.6rem;
+            width: 40px;
+            height: 40px;
+          }
+          .info__content {
+            .info__heading {
+              font-size: 1.6rem;
+            }
+
+            .info__desc {
+              font-size: 1.4rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 361px) {
+  .contact {
+    .contact__content {
+      .contact__info {
+        .info__card {
+          .info__icon {
+            font-size: 1.4rem;
+            width: 34px;
+            height: 34px;
+          }
+        }
+      }
+    }
+  }
+}

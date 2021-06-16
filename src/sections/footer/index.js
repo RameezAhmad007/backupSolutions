@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.css";
+import "./styles.scss";
 const FooterSection = () => {
   return (
     <section className="footer">
@@ -13,7 +13,7 @@ const FooterSection = () => {
         </p>
         <p class="credits">
           Designed by{" "}
-          <a className="credits__a" href="http://aj-and-company.com/">
+          <a className="credits__a" href="#">
             Backup Solutions
           </a>
         </p>

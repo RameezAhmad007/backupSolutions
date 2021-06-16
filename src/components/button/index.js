@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.css";
+import "./styles.scss";
 const Button = (props) => {
   const { text = "text" } = props;
   return <button className="button">{text}</button>;

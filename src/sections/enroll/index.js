@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Input from "../../components/input";
 import Button from "../../components/button";
-import "./style.css";
+import "./styles.scss";
 
 const EnrollSection = () => {
   const [enroll, setEnroll] = useState({

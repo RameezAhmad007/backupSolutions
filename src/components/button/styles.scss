@@ -5,5 +5,12 @@
   padding: 10px 32px;
   background-color: #0880e8;
   color: #fff;
-  font-size: 1rem;
+  font-size: 1.6rem;
+}
+
+@media (max-width: 641px) {
+  .button {
+    padding: 10px 32px;
+    font-size: 1.4rem;
+  }
 }
